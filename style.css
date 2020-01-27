@@ -1,0 +1,712 @@
+/*
+login
+*/
+.box{
+    width: 400px;
+    height: 750px;
+    background: url(login.jpg);    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align:center;
+}
+
+.box h1{
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+}
+
+.box h3{
+    font-size: 25px;
+    font-family: "Georgia, serif";
+    
+}
+
+.username {
+    font-size: 40px;
+}
+
+.password {
+    font-size: 40px;
+}
+
+.forgot_password {
+    color: white;
+    font-style: italic;
+}
+
+.create_account {
+    color: white;
+    font-style: italic;
+}
+
+#or{
+    font-size: 35px;
+}
+
+.button{
+    background-color:white;
+    color:black;
+    border: none;
+    padding: 20px;
+    border-style:solid;
+    text-align:center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button{
+    border-radius: 50%;
+}
+
+.other1{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 1px;
+}
+
+.other2{
+    width: 270px;
+    height: 50px;
+}
+
+/*
+start
+*/
+.mid-box{
+    width: 380px;
+    height: 250px;
+    margin: auto;
+    margin-top: 50%;
+    background-color: rgba(255,255,255,0.4);
+
+}
+
+#intro{
+    font-size: 50px; 
+    color:black;
+    font-weight:bold;
+    font-family: 'Indie Flower', cursive;
+    margin:auto;
+}
+
+#plate{
+    margin-top: 500px;
+}
+
+/*
+plan-option
+*/
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.container-item{
+    border-color:white;
+    border-style:solid;
+    border-radius:20px;
+    color:white;
+    width: 150px;
+    height: 375px;
+    margin: 10px auto;
+    margin-top:105px;
+    font-size: 35px;
+}
+
+#text1{
+    text-align: center;
+    position: relative;
+    color: white;
+    top:40%;
+}
+
+#text2{
+    text-align: center;
+    position: relative;
+    color: white;
+    top:35%;
+}
+
+.container2{
+    display:flex;
+    flex-direction: row;
+    margin-top: 45%;
+}
+
+.container-options{
+    border-color:white;
+    border-style:solid;
+    border-width: 2px;
+    color: white;
+    widows: 45px;
+    height:75px;
+    margin:auto;
+    bottom: 0;
+}
+
+#option{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top:25%;
+}
+
+.options{
+    text-decoration: none;
+}
+
+/*
+upgrade
+*/.top{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.constru{
+    position: absolute;
+    top:100px;
+}
+
+#soon{
+    font-size: 45px;
+}
+
+/*
+Settings
+*/
+#setting{
+    font-size:60px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.line{
+    border: 2px solid white;    
+}
+
+#three_text{
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.left{
+    text-align: left;
+    margin-left: 15px;
+}
+
+/*
+Current plan
+*/
+
+.list h1{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.breakfast_box{
+    width: 170px;
+    height: 40px;
+    border-color:white;
+    border-style:solid;
+    border-width: 2px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.discriptions{
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.help a {
+    color: white;
+    font-size:25px;
+    position: absolute;
+    top: 85%;
+    left: 25%;
+}
+
+/*
+shopping list
+*/
+.header h1{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.meal {
+    color: black;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.contents li{
+    text-align: left;
+}
+
+.total{
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+}
+
+/*
+profile
+*/
+.profile_contents{
+    font-size: 35px; 
+    text-align: left;
+    margin-left: 30px;
+}
+/*
+options
+*/
+#img_left1{
+    float:left;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.duration p{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.radio_button{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+#img_left2{
+    float:left;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.budget p{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+#img_left3{
+    float:left;
+    position: absolute;
+    top: 43%;
+    left: 5%;
+}
+
+.time p{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+#img_left4{
+    float:left;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.textbox{
+    position: absolute;
+    top: 68%;
+    left: 17%;
+}
+
+.people p{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+#img_left5{
+    float:left;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+}
+
+.advance {
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 65px;
+}
+
+#advance_option{
+    color: white;
+    text-decoration: none;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container1_item{
+    background: linear-gradient(to top, gray, white);
+    opacity: 0.8;
+    width:150px;
+    height:60px;
+    
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    
+}
+
+.container1_item #text1{
+    color:black;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 17%;
+}
+
+.container1_item #text2{
+    color: red;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    right: 16%;
+}
+
+#advanceImg1{
+    float:left;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.special p{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 90px;
+}
+
+#advanceImg2{
+    float:left;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.presentation p{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 90px;
+}
+
+#advanceImg3{
+    float:left;
+    position: absolute;
+    top: 42%;
+    left: 5%;
+}
+
+.nutrition p{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 90px;
+}
+
+.advance_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.advance_container_item{
+    background: linear-gradient(to top, gray, white);
+    opacity: 0.8;
+    margin: 10px;
+    width: 125px;
+    height:45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    margin-top: 250px;
+}
+
+.advance_container_item #text1{
+    color:black;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 89%;
+    left: 15%;
+}
+
+.advance_container_item #text2{
+    color: red;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 89%;
+    right: 18%;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#protein{
+    position: absolute;
+    top:1%;
+    left: 10%;
+}
+#grain{
+    position: absolute;
+    top:1%;
+    left: 40%;
+}
+#return1{
+    position: absolute;
+    top:3%;
+    left: 70%;
+}
+#dairy{
+    position: absolute;
+    top:13%;
+    left: 10%;
+}
+#vegetable{
+    position: absolute;
+    top:14%;
+    left: 43%;
+}
+#fruit{
+    position: absolute;
+    top:13%;
+    left: 67%;
+}
+.main_context p{
+    color: black;
+    font-size:21px;
+    font-weight: bold;
+    position: absolute;
+    top:22%;
+    text-align: left;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+#pot{
+    margin-top: 210px;
+}
+.selections{
+    display: flex;
+}
+
+.selection{
+    width:50px;
+    height:50px;
+    border-style: solid;
+    margin: auto;
+}
+
+.done_oval{
+    width:120px;
+    height: 60px;
+    border-radius: 100px/50px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top: 90%;
+    left:35%;
+}
+
+#done_text{
+    font-size: 23px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+}
+
+.result_header{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.planA{
+    margin-top:20px;
+    height:30px;
+    width: 90px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 10px;
+}
+
+.planA p{
+    color: white;
+    position: absolute;
+    top: 13%;
+    left:7%;
+}
+
+.western{
+    margin-top: 20px;
+}
+#western{
+    float: left;
+    width:150px;
+    height:120px;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.western p{
+    color: Black;
+    font-size: 25px;
+}
+
+.western a{
+    color: white;
+    font-size: 20px;
+}
+
+.planB{
+    margin-top:60px;
+    height:30px;
+    width: 90px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 10px;
+}
+
+.planB p{
+    color: white;
+    position: absolute;
+    top: 39%;
+    left:7%;
+}
+
+.chinese p{
+    color: Black;
+    font-size: 25px;
+}
+
+.chinese a{
+    color: white;
+    font-size: 20px;
+}
+
+#chinese{
+    float: left;
+    width:150px;
+    height:120px;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.planC{
+    margin-top:60px;
+    height:30px;
+    width: 90px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 10px;
+}
+
+#Japanese{
+    float: left;
+    width:150px;
+    height:120px;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.planC p{
+    color: white;
+    position: absolute;
+    top: 65%;
+    left:7%;
+}
+
+.Japanese p{
+    color: Black;
+    font-size: 25px;
+}
+
+.Japanese a{
+    color: white;
+    font-size: 20px;
+}
+
+.finish{
+    width: 120px;
+    height: 50px;
+    background: linear-gradient(to top, gray, white);
+    border-radius: 7px;
+    opacity: 0.8;
+    position: absolute;
+    top: 91%;
+    right: 5%;
+}
+
+.finish a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left:34%;
+}
+
+
